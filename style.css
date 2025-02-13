@@ -21,8 +21,49 @@ nav ul{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    padding: 10px;
 }
 
 .container{
+    /* For boxes */
+    display: grid;
+    grid-template-columns: repeat(3,10vW);
+    grid-template-rows: repeat(3,10vW);
+    
+}
 
+.box{
+    border: 1px solid black;
+    font-size: 6vw;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+.box:hover{
+    background-color: rgb(223, 174, 109);
+}
+
+.gameInfo{
+    margin: 20px;
+    /* padding: 20px; */
+    font-family: "Inter", serif;
+}
+
+.imgBox img{
+    display: none;
+}
+
+/* Utility classes:-  */
+.br-0{
+    border-right: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.bt-0{
+    border-top: 0;
+}
+.bb-0{
+    border-bottom: 0;
 }
