@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color:brown;
+    color: bisque;
+    height: 60px;
+    font-size: 27px;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    font-family: "Inter", serif;
+}
+nav ul{
+    list-style: none;
+}
+
+.gameArea{
+    background-color: burlywood;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.container{
+
+}
